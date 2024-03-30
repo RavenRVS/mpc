@@ -1,0 +1,43 @@
+.reg-modal__conatiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border: #e2e3e6 solid 1px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    background-color: #282b31;
+}
+
+.reg-modal__form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 10px;
+}
+
+.reg-modal__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.reg-form__field {
+    width: 260px;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.reg-modal__submit-btn {
+    width: 260px;
+    height: 30px;
+    background-color: #7f77f1;
+    color: #e2e3e6;
+    border: unset;
+    padding: 0;
+    font-weight: bold;
+}
+
+.reg-modal__reg-link {
+    color: #7f77f1;
+}

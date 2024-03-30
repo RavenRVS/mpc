@@ -1,9 +1,9 @@
 import { Outlet } from "react-router-dom";
-import Header from "../Header/Header";
-import Footer from "../Footer/Footer";
-import "./Layout.css"
+import Header from "../../components/Header/Header";
+import Footer from "../../components/Footer/Footer";
+import "./Root.css"
 
-export const Layout = () => {
+export default function Root() {
     return (
         <div className="site-container">
             <Header />
