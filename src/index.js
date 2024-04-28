@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Provider } from 'react-redux';
+import { store } from './app/store';
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import './index.css';
 import Root from "./routes/Root/Root";
 import ErrorPage from "./routes/ErrorPage/ErrorPage"; 
 import { Auth, action as authAction } from "./routes/Auth/Auth";
 import { Registration, action as registrationAction } from './routes/Registration/Registration';
-import UserInterface from './routes/UserInterface/UserInterface';
+import UserInterface, {loader as userLoader} from './routes/UserInterface/UserInterface';
+import UsersControlPage from './routes/AdminInterface/AdminInterface';
+import PersonInfo, {loader as persLoader} from './routes/PersonInfo/PersonInfo';
+
 
 const router = createBrowserRouter([
   {
@@ -30,9 +35,18 @@ const router = createBrowserRouter([
             action: registrationAction,
           },
           {
-            path: 'user',
+            path: 'files',
             element: <UserInterface />,
-            // loader: userLoader,
+            loader: userLoader,
+          },
+          {
+            path: 'admin',
+            element: <UsersControlPage />,
+          },
+          {
+            path: 'persinfo',
+            element: <PersonInfo />,
+            loader: persLoader,
           },
         ]
       },
@@ -42,5 +56,7 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <RouterProvider router={router} />
+  <Provider store={store} >
+    <RouterProvider router={router} />
+  </Provider>
 );

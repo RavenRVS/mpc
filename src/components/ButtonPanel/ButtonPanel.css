@@ -1,0 +1,23 @@
+.button-panel__btn-container {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    border: solid #e2e3e670 1px;
+    border-radius: 10px;
+    background-color: #282b31;
+    gap: 5px;
+}
+
+.button-panel__image {
+    height: 20px;
+    margin-left: 5px;
+}
+
+.button-panel__button-text {
+    padding-bottom: 2%;
+    margin-right: 5px;
+}
+
+.button-panel__btn-container:hover {
+    background-color: #3c414a;
+}

@@ -1,0 +1,62 @@
+.files-cell--0 {
+    min-width: 20px;
+}
+
+.files-cell-1 {
+    min-width: 250px;
+}
+
+.files-cell-2 {
+    min-width: 250px;
+}
+
+.files-cell-3 {
+    min-width: 180px;
+    text-align: center;
+}
+
+.files-cell-4 {
+    min-width: 80px;
+    text-align: center;
+}
+
+.files-cell-5 {
+    min-width: 220px;
+    text-align: center;
+}
+
+.users-cell-0 {
+    min-width: 20px;
+}
+
+.users-cell-1 {
+    min-width: 100px;
+}
+
+.users-cell-2 {
+    min-width: 120px;
+}
+
+.users-cell-3 {
+    min-width: 120px;
+}
+
+.users-cell-4 {
+    min-width: 140px;
+    text-align: center;
+}
+
+.users-cell-5 {
+    min-width: 160px;
+    text-align: center;
+}
+
+.users-cell-6 {
+    min-width: 160px;
+    text-align: center;
+}
+
+.users-cell-7 {
+    min-width: 120px;
+    text-align: center;
+}

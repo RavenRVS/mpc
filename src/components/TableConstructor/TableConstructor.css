@@ -1,0 +1,45 @@
+.files-list__row-container {
+    display: flex;
+    align-items: center;
+    
+    border-bottom: solid #e2e3e670 1px;
+}
+
+.files-list__row-container:hover {
+    background-color: #3c414a;;
+}
+
+.files-list__checkbox-container {
+    padding: 0 20px;
+}
+
+.files-list__row {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color: #e2e3e6;
+    gap: 10px;
+}
+
+.users-list__row-container {
+    display: flex;
+    align-items: center;
+    
+    border-bottom: solid #e2e3e670 1px;
+}
+
+.users-list__row-container:hover {
+    background-color: #3c414a;;
+}
+
+.users-list__checkbox-container {
+    padding: 0 20px;
+}
+
+.users-list__row {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    color: #e2e3e6;
+    gap: 10px;
+}

@@ -2,6 +2,7 @@
     /* background-color: #2a2e34; */
     background: radial-gradient(at 55% -30%, #d70a84 20%, #6937cd 25%, #2a2e34 50%);
     width: 100vw;
+    min-width: 1300px;
     height: 100vh;
     display: flex;
     flex-direction: column;

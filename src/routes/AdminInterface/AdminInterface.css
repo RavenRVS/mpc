@@ -1,0 +1,14 @@
+.users-control-page__container {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 60px;
+    background-color: #282b31;
+}
+
+.button-panel__container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    width: 100%;
+}

@@ -24,7 +24,7 @@ export async function action({ request }) {
           if (check.admin) {
             return redirect('/admin');
           }
-          return redirect('/user');
+          return redirect('/files');
         }
         // Аутентификация не пройдена
         errors.response = 'НЕВЕРНЫЙ ПАРОЛЬ ИЛИ ПОЧТА';
